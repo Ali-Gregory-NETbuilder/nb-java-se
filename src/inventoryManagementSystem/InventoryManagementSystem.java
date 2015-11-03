@@ -1,4 +1,4 @@
-package inventoryManagementSystem;
+																																																																																																																																																																																																package inventoryManagementSystem;
 
 import static java.lang.System.out;
 
@@ -10,7 +10,6 @@ public class InventoryManagementSystem {
 		out.println("Welcome to the Inventory Management System");
 		
 		standard.generateStaticInventory();
-		
 		
 	}
 

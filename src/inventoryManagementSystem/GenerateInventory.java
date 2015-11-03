@@ -4,7 +4,7 @@ import static java.lang.System.out;
 
 public class GenerateInventory {
 
-	public StockItem generateStaticInventory() {
+	public void generateStaticInventory() {
 		StockItem wateringCanItem = new StockItem();
 		StockItem mankiniGnomeItem = new StockItem();
 		StockItem wheelbarrowItem = new StockItem();
@@ -23,7 +23,6 @@ public class GenerateInventory {
 		wheelbarrowItem.name = "Wheelbarrow";
 		wheelbarrowItem.quantity = 12;
 		
-		return wateringCanItem;
 
 	}
 
