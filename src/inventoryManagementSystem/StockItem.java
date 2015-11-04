@@ -9,7 +9,7 @@ public class StockItem {
 	
 	public void display() {
 		//Prints basic information to the console
-		out.print(itemID + " | " + quantity + " " + name);
+		out.println(itemID + " | " + quantity + " " + name);
 	}
 
 }

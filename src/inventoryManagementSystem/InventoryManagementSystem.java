@@ -6,10 +6,15 @@ public class InventoryManagementSystem {
 
 	public static void main(String[] args) {
 		GenerateInventory standard = new GenerateInventory();
+		StockItem[] inventory;
 		
-		out.println("Welcome to the Inventory Management System");
+		out.println("Welcome to the Inventory Management System.");
 		
-		standard.generateStaticInventory();
+		inventory = standard.generateStaticInventory();
+		
+		for (int j = 0; j < inventory.length; j++){
+			inventory[j].display();
+		}
 		
 		/*Here I want to call the display methods for the StockItem instances:
 		  	wateringCanItem, mankiniGnomeItem, wheelbarrowItem
