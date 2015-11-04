@@ -5,10 +5,12 @@ import static java.lang.System.out;
 public class GenerateInventory {
 
 	public void generateStaticInventory() {
+		//Initialise 3 instances of the StockItem class
 		StockItem wateringCanItem = new StockItem();
 		StockItem mankiniGnomeItem = new StockItem();
 		StockItem wheelbarrowItem = new StockItem();
 		
+		//This message shows that GenerateInventory has been successfully called
 		out.println("An inventory shall be automatically generated.");
 		
 		wateringCanItem.itemID = "WC0001";

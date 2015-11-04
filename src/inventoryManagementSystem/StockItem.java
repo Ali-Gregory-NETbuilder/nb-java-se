@@ -8,6 +8,7 @@ public class StockItem {
 	int quantity;
 	
 	public void display() {
+		//Prints basic information to the console
 		out.print(itemID + " | " + quantity + " " + name);
 	}
 
