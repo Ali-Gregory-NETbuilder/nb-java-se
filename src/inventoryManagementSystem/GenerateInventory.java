@@ -22,7 +22,7 @@ public class GenerateInventory {
 		
 		mankiniGnomeItem.itemID = "MG0001";
 		mankiniGnomeItem.name = "Mankini clad gnome";
-		mankiniGnomeItem.quantity = 5;
+		mankiniGnomeItem.quantity = 4;
 		
 		wheelbarrowItem.itemID = "WB0001";
 		wheelbarrowItem.name = "Wheelbarrow";
